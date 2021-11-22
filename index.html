@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <title></title>
+</head>
+<body>
+
+  <div class="container-fluid mt-4">
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <form action="enviar.php" method="post">
+          <div class="row form-group">
+            <div class="col-md-6 mb-3 mb-md-0">
+              <label class="text-black" for="name">First Name</label>
+              <input type="text" id="name" class="form-control">
+            </div>
+          </div>
+
+          <div class="row form-group">
+            <div class="col-md-12">
+              <label class="text-black" for="email">Email</label>
+              <input type="email" id="email" class="form-control">
+            </div>
+          </div>
+
+          <div class="row form-group">
+            <div class="col-md-12">
+              <label class="text-black" for="projectname">Project Name</label>
+              <input type="text" id="projectname" class="form-control">
+            </div>
+          </div>
+
+          <div class="row form-group">
+            <div class="col-md-12">
+              <label class="text-black" for="contract">Smart Contract</label>
+              <input type="text" id="contract" class="form-control">
+            </div>
+          </div>            
+
+          <div class="row form-group">
+            <div class="col-md-12">
+              <label class="text-black" for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+            </div>
+          </div>
+
+          <div class="clear">
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-primary">SEND MESSAGE</button><br><br>
+
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
